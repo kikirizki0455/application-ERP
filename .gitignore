@@ -1,0 +1,45 @@
+# Global ignores
+*.log
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+auth.json
+
+# IDE/editor
+.idea
+.vscode
+.fleet
+.zed
+
+# Backend
+backend/vendor
+backend/node_modules
+backend/storage/*.key
+backend/storage/pail
+backend/public/build
+backend/public/hot
+backend/public/storage
+backend/.phpunit.cache
+backend/.phpactor.json
+backend/.nova
+backend/Homestead.json
+backend/Homestead.yaml
+
+# Frontend
+frontend/node_modules
+frontend/.next
+frontend/out
+frontend/build
+frontend/.pnp
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+frontend/coverage
+frontend/.vercel
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
